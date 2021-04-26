@@ -1,5 +1,5 @@
 mysql_host: 'localhost'
 mysql_user: 'newuser'
-# Enter your password in field below
+# Enter your passwodrd in field below
 mysql_password: 'password'
 mysql_db: 'flask'
