@@ -7,12 +7,11 @@
 from flask import Flask, render_template, request, redirect
 from flask_mysqldb import MySQL
 import yaml
-from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__)
 
 # Configure db
-db = yaml.safe_load(open('db.yaml'))
+db = yaml.load(open('db.yaml'))
 app.config['MYSQL_HOST'] = db['mysql_host']
 app.config['MYSQL_USER'] = db['mysql_user']
 app.config['MYSQL_PASSWORD'] = db['mysql_password']
@@ -43,5 +42,4 @@ def users():
         return render_template('users.html',userDetails=userDetails)
 
 if __name__ == '__main__':
-    http_server = WSGIServer(('', 5000), app)
-    http_server.serve_forever()
+    app.run(debug=True)
