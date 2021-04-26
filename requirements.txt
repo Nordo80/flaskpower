@@ -5,4 +5,5 @@ requests==2.25.1
 requests-toolbelt==0.7.0
 requests-unixsocket==0.1.5
 yamllint==1.26.0
+PyYAML==5.4.1
 
