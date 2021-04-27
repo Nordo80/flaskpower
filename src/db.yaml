@@ -1,5 +1,5 @@
-mysql_host: '127.0.0.1'
-mysql_user: 'newuser'
+mysql_host: 'eu-cdbr-west-01.cleardb.com'
+mysql_user: 'b12f26d01aa967'
 # Enter your passwodrd in field below
-mysql_password: 'password'
-mysql_db: 'flask'
+mysql_password: 'b85dc090'
+mysql_db: 'heroku_b40d4a2594424bc'
