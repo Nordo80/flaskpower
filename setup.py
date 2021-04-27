@@ -1,7 +1,7 @@
 # Make sure to install the following tools
 # sudo apt-get install python-dev default-libmysqlclient-dev libssl-dev
 # pip install --user flask-mysqldb
-# Login to MySQL witsh root
+# Login to MySQL gwitsh root
 # Create a new user: CREATE USER 'user'@'%' IDENTIFIED BY 'YOUR_PASSWORD';
 # Grant Priviledges: GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;
 from flask import Flask, render_template, request, redirect
