@@ -1,5 +1,5 @@
-mysql_host: 'localhost'
-mysql_user: 'newuser'
+mysql_host: 'ec2-54-155-226-153.eu-west-1.compute.amazonaws.com'
+mysql_user: 'valmnbftkexqxv'
 # Enter your passwodrd in field below
-mysql_password: 'password'
-mysql_db: 'flask'
+mysql_password: 'e77346c3e8d260763d4405857e037f2b6c717222cef2df503f6d037295d694a5'
+mysql_db: 'dcmuoso0vegtan'
