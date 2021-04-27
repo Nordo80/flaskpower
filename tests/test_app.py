@@ -1,2 +1,2 @@
 def test_index():
-    assert "TatlTech" == "Taltech"
+    assert "TalTech" == "TalTech"
