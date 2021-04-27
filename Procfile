@@ -1,1 +1,1 @@
-web: python setup.py
+web gunicorn --pythonpath  src app:app
