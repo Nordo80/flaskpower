@@ -1,2 +1,2 @@
 web gunicorn --pythonpath  src app:app
-worker: python new.py
+web: python new.py
