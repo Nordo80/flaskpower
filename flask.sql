@@ -34,7 +34,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('naruto','edwefw@gmail.com'),('narutow2','edwefd@gmail.com'),('6j6776j67','aleksandr.borovkov97@gmail.com'),('d3d2','aleksandr.borovkov97@gmail.com'),('Aleksandr','hello@gmail.com'),('ewfwefew','hello@gmail.com'),('ewffewfefew','hello@gmail.com');
+INSERT INTO `users` VALUES ('naruto','edwefw@gmail.com'),('narutow2','edwefd@gmail.com'),('6j6776j67','aleksandr.borovkov97@gmail.com'),('d3d2','aleksandr.borovkov97@gmail.com'),('Aleksandr','hello@gmail.com'),('ewfwefew','hello@gmail.com'),('ewffewfefew','hello@gmail.com'),('ewffewfefew','hello@gmail.com'),('ojpp[o[k','maha@gmail.com');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -47,4 +47,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-28 17:25:27
+-- Dump completed on 2021-04-28 17:53:31
